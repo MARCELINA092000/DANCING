@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container{
+    width:600px;
+    height:auto;
+    padding:20px;
+}
+
+
+.container p{
+    font-weight:bold;
+    text-align:center;
+    line-height: 20px;
+    background-image: url('happy-dancing.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    -webkit-background-clip: text;
+    color:transparent;
+}
